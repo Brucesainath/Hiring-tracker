@@ -1,0 +1,217 @@
+body{
+    background: rgb(240, 240, 240);
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+     
+    margin-top:5% ;
+    margin-left: 20%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+
+    
+    
+}
+.wrapper > div {
+    
+    background: #fff;
+
+}
+
+.wrapper > div:nth-child(even){
+    background: rgb(78, 74, 194);
+}
+
+.myform{
+  
+
+    padding: 2px;
+   
+    width: 100%;
+    
+}
+
+#ge_info{
+    color: rgb(78, 74, 194);
+    font-weight: lighter;
+}
+
+#ce_info{
+    font-weight: lighter;;
+}
+
+.ge_info{
+    padding: 10px 20px;
+    float: left;
+    box-shadow: -5px 7px 26px #444 ;
+    border-radius: 15px 0 0  15px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+
+
+.ce_info{
+    padding: 10px 20px;
+    float: left;
+    box-shadow: 3px 7px 26px  rgb(78, 74, 194);
+    border-radius: 0 15px 15px 0;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+
+.ge_info .input{
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 4px 10px;
+    border: none;
+    border-bottom: 1px #a9a9a9 solid;
+    background: transparent;
+    width: 70%;
+    
+   
+}
+
+#firstname ,#lastname,#ZIP{
+    max-width: 125px;
+    
+}
+#lastname{
+    margin-left: 20px;
+}
+
+.ce_info .input{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 4px 10px;
+    border: none;
+    color: #fff;
+    border-bottom: 1px #fff solid;
+    background: transparent;
+    width: 70%;
+    
+   
+}
+
+.ge_info ::placeholder{
+    font-size: 15px;
+    color: #a9a9a9;
+    font-weight: bold;
+}
+
+
+.ce_info ::placeholder{
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+#title{
+    font-weight: bold;
+    padding: 4px 10px;
+    width: 70%;
+    background: transparent;
+    color: #a9a9a9;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px #a9a9a9 solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#work_profile{
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 4px 10px;
+    width: 70%;
+    background: transparent;
+    color: #a9a9a9;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px #a9a9a9 solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#required{
+font-weight: bold;
+    padding: 4px 10px;
+    width: 70%;
+    background: transparent;
+    color: #a9a9a9;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px #a9a9a9 solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.btn{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(78, 74, 194);
+    background: white;
+    cursor: pointer;
+    transition-duration:1s ;
+}
+
+.btn:hover{
+    text-shadow: 0px 5px 15px rgb(78, 74, 194); ;
+    box-shadow: 0px 5px 10px #fff;
+    font-size: 20px;
+    transition-duration: .3s;
+}
+
+#add{
+    width: 150px;
+    height: 50px;
+    margin-left: 20%;;
+    box-shadow: 0px 10px 50px #444;
+}
+
+.wrapper2{
+   
+  
+   background-repeat: no-repeat;
+    margin-top:5% ;
+    margin-left: 6% ; 
+}
+
+table{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5%;;
+    border: 2px #444 solid;
+    width: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+th{
+    padding: 5px 10px;
+    border-left: 1px #444 solid;
+    border-bottom: 2px #444 solid;
+    
+}
+
+tr{
+    border-bottom: 2px #444 solid;
+}
+
+#header_title{
+    border-left: none;
+}
+
+#header_email, #header_work{
+    width: 25%;
+}
+
+

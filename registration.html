@@ -1,0 +1,78 @@
+<!Doctype html>
+<head>
+    <title>hiring tranker</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="registration.js"></script>
+</head>
+<body id="body">
+    <input id="add"class="btn" type="submit" value="+Add project">
+    <div class="wrapper" id="wrapper">
+                    <div class="ge_info">
+                <form action="#" class="myform"></form>
+                <h1 id="ge_info">General Information</h1>
+                
+                <select name="Project name" id="title" required > 
+                    <option value=" "> Title</option>
+                    <option value="project1">project1</option>
+                    <option value="project2">project2</option>
+                    <option value="project3">project3</option>
+                    <option value="project4">project4</option>
+                </select>
+                <br>
+
+               
+                <input class="input" id="firstname" type="text" placeholder="First name" required>
+            
+               
+                <input class="input" id="lastname" type="text" placeholder="Last name" required>
+                <br>
+                
+                <select name="Project name" id="work_profile" required > 
+                    <option value=" "> Work profile</option>
+                    <option value="project Manager">project Manager </option>
+                    <option value="Assistant Manager">Assistant Manager</option>
+                    <br>
+
+                <input class="input" id="emp_required" type="number" placeholder="Employees required" required>
+            </form>
+            </div>
+
+
+            <div class="ce_info">
+                <form action="#" class="myform"></form>
+                    <h1 id="ce_info">Contact Information</h1>
+        
+                   
+                   
+                    <input class="input" type="text" id="mob_no" placeholder="Mobile No" required>
+                        <br>
+                        <br>
+                
+                    <input class="input" id="adress" type="text" placeholder="Adress Line1" required>
+                    <input class="input" id="adress" type="text" placeholder="Adress line2">
+                    <input class="input" id="ZIP" type="text" placeholder="ZIP code" required >
+                        <br>
+                        <br>
+                        <input class="input"id="email" type="email" placeholder="Email">
+                        <br>
+                        <input id="register"class="btn" type="submit" value="register">
+                </form>
+        </div>
+    </div>
+
+    <div class="wrapper2">
+        <table id="datatable">
+            
+            <tr id="table_header" class="table_header">
+        
+                <th id="header_title">Title</th>
+                <th id="header_name">Name</th>
+                <th id="header_work">Work profile</th>
+                <th id="header_emp_req">Emloyes required</th>
+                <th id="header_Mob_no">Mob no</th>
+                <th id="header_email">Email</th>          
+            </tr>
+        </table>
+    </div>
+</body>
